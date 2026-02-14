@@ -1,0 +1,211 @@
+{
+  "haletix_shows": [
+    {
+      "id": "show-001",
+      "name": "Valentine's Day Comedy Night",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "venue": "Laugh Track Comedy Club",
+      "price": 25,
+      "totalSeats": 100,
+      "createdAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "id": "show-002",
+      "name": "Jazz Under the Stars",
+      "date": "2026-02-21",
+      "time": "19:30",
+      "venue": "Desert Botanical Garden",
+      "price": 45,
+      "totalSeats": 200,
+      "createdAt": "2026-02-01T10:30:00.000Z"
+    },
+    {
+      "id": "show-003",
+      "name": "Phoenix Symphony - Beethoven's 9th",
+      "date": "2026-03-01",
+      "time": "19:00",
+      "venue": "Symphony Hall",
+      "price": 65,
+      "totalSeats": 150,
+      "createdAt": "2026-02-05T14:00:00.000Z"
+    },
+    {
+      "id": "show-004",
+      "name": "Stand-Up Workshop",
+      "date": "2026-03-08",
+      "time": "18:00",
+      "venue": "Community Arts Center",
+      "price": 15,
+      "totalSeats": 50,
+      "createdAt": "2026-02-10T09:00:00.000Z"
+    },
+    {
+      "id": "show-005",
+      "name": "Rock Legends Reunion",
+      "date": "2026-03-15",
+      "time": "20:00",
+      "venue": "Ak-Chin Pavilion",
+      "price": 85,
+      "totalSeats": 500,
+      "createdAt": "2026-02-12T11:00:00.000Z"
+    }
+  ],
+  "haletix_people": [
+    {
+      "id": "person-001",
+      "name": "Sarah Johnson",
+      "email": "sarah.j@email.com",
+      "phone": "602-555-0101",
+      "notes": "Regular customer, prefers comedy shows",
+      "createdAt": "2026-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "person-002",
+      "name": "Michael Chen",
+      "email": "mchen@email.com",
+      "phone": "480-555-0202",
+      "notes": "VIP member, buys multiple tickets",
+      "createdAt": "2026-01-20T09:30:00.000Z"
+    },
+    {
+      "id": "person-003",
+      "name": "Emily Rodriguez",
+      "email": "emily.r@email.com",
+      "phone": "623-555-0303",
+      "notes": "Student discount eligible",
+      "createdAt": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "id": "person-004",
+      "name": "David Thompson",
+      "email": "dthompson@email.com",
+      "phone": "520-555-0404",
+      "notes": "Corporate client, books group events",
+      "createdAt": "2026-02-01T10:00:00.000Z"
+    },
+    {
+      "id": "person-005",
+      "name": "Lisa Park",
+      "email": "lpark@email.com",
+      "phone": "602-555-0505",
+      "notes": "Prefers classical music",
+      "createdAt": "2026-02-05T16:00:00.000Z"
+    },
+    {
+      "id": "person-006",
+      "name": "James Wilson",
+      "email": "jwilson@email.com",
+      "phone": "480-555-0606",
+      "notes": "Frequent waitlist user",
+      "createdAt": "2026-02-08T11:30:00.000Z"
+    }
+  ],
+  "haletix_sales": [
+    {
+      "id": "sale-001",
+      "showId": "show-001",
+      "personId": "person-001",
+      "quantity": 2,
+      "totalAmount": 50,
+      "paymentMethod": "Credit Card",
+      "status": "Paid",
+      "saleDate": "2026-02-10T14:30:00.000Z"
+    },
+    {
+      "id": "sale-002",
+      "showId": "show-001",
+      "personId": "person-002",
+      "quantity": 4,
+      "totalAmount": 100,
+      "paymentMethod": "Credit Card",
+      "status": "Paid",
+      "saleDate": "2026-02-11T10:00:00.000Z"
+    },
+    {
+      "id": "sale-003",
+      "showId": "show-002",
+      "personId": "person-003",
+      "quantity": 1,
+      "totalAmount": 45,
+      "paymentMethod": "Cash",
+      "status": "Paid",
+      "saleDate": "2026-02-12T16:45:00.000Z"
+    },
+    {
+      "id": "sale-004",
+      "showId": "show-002",
+      "personId": "person-004",
+      "quantity": 10,
+      "totalAmount": 450,
+      "paymentMethod": "Corporate Invoice",
+      "status": "Reserved",
+      "saleDate": "2026-02-13T09:00:00.000Z"
+    },
+    {
+      "id": "sale-005",
+      "showId": "show-003",
+      "personId": "person-005",
+      "quantity": 2,
+      "totalAmount": 130,
+      "paymentMethod": "Credit Card",
+      "status": "Paid",
+      "saleDate": "2026-02-10T11:20:00.000Z"
+    },
+    {
+      "id": "sale-006",
+      "showId": "show-004",
+      "personId": "person-006",
+      "quantity": 1,
+      "totalAmount": 15,
+      "paymentMethod": "Cash",
+      "status": "Paid",
+      "saleDate": "2026-02-11T15:00:00.000Z"
+    },
+    {
+      "id": "sale-007",
+      "showId": "show-005",
+      "personId": "person-002",
+      "quantity": 6,
+      "totalAmount": 510,
+      "paymentMethod": "Credit Card",
+      "status": "Paid",
+      "saleDate": "2026-02-13T20:00:00.000Z"
+    }
+  ],
+  "haletix_waitlist": [
+    {
+      "id": "wait-001",
+      "showId": "show-001",
+      "personId": "person-003",
+      "quantity": 2,
+      "notes": "Really wants to attend Valentine's show",
+      "status": "Waiting",
+      "addedAt": "2026-02-13T18:00:00.000Z",
+      "notifiedAt": null,
+      "convertedAt": null
+    },
+    {
+      "id": "wait-002",
+      "showId": "show-002",
+      "personId": "person-006",
+      "quantity": 2,
+      "notes": "Prefers outdoor seating",
+      "status": "Notified",
+      "addedAt": "2026-02-12T10:00:00.000Z",
+      "notifiedAt": "2026-02-13T09:00:00.000Z",
+      "convertedAt": null
+    },
+    {
+      "id": "wait-003",
+      "showId": "show-005",
+      "personId": "person-004",
+      "quantity": 20,
+      "notes": "Corporate group - need adjacent seats",
+      "status": "Waiting",
+      "addedAt": "2026-02-14T08:00:00.000Z",
+      "notifiedAt": null,
+      "convertedAt": null
+    }
+  ]
+}
